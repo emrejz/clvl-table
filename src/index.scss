@@ -1,0 +1,31 @@
+@import "./constants/variables.scss";
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("./assets/fonts/HelveticaNeue.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HelveticaNeueBold";
+  src: url("./assets/fonts/HelveticaNeuBold.ttf") format("truetype");
+}
+*,
+*::after,
+*::before {
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+body {
+  font-family: "HelveticaNeue";
+  font-size: 20px;
+}
+button {
+  cursor: pointer;
+}
